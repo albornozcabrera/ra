@@ -1,0 +1,120 @@
+/*.fondo-color-gris{
+    background-color: #fff;
+}
+
+.table-resaltar tr:hover{
+    background: #E9E9EC !important;
+}
+
+table tr th{
+    text-align: center;
+    font-weight: bold !important;
+}
+
+
+.table-espacio{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+
+.text-centrar{
+    text-align: center;
+}
+
+
+
+.tabla_resultados_modal th {
+    background: #667595;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    color: #FFF;
+}
+
+.table-witdh-100{
+    width: 100%;
+}*/
+
+
+.table-program th{
+    background:#667595;
+    color:#FFF;
+    text-align: center;
+    padding: 10px 1px !important;
+    vertical-align: middle;
+    border: 1px solid #c5dbec;
+    font-weight: normal !important;
+}
+
+.table-program td{
+    padding: 4px 0px !important;
+    text-align: center;
+    vertical-align: middle !important;
+
+    height: 22px;
+    padding: 0px 2px !important;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border: 1px solid #000000;
+
+}
+
+
+.table-program tr:hover{
+    background-color: #eee;
+}
+
+.table-program th i{
+    font-size: 15px;
+    cursor:pointer;
+    color: #fff;
+}
+
+.table-program th i:hover{
+    color: #444;
+}
+/*.table-program {
+    border-bottom: 1px solid #000000;
+}*/
+
+
+
+
+
+.table-report-excel th {
+    background-color: #2059A7;
+    text-align: center;
+    color: #fff; border: 1px solid #3268B1;
+}
+.table-report-excel td {
+    color: #002060; border: 1px solid #3268B1;
+}
+
+.link
+{
+	text-decoration:none;   
+	color:#2059A7;
+}
+
+
+/*  ULTIMO */
+.table-report-excel2 th {
+	background-color: #2059A7;
+	text-align: center;
+    color: #fff;
+}
+
+.table-report-excel2 td {
+    color: #002060; 
+}
+
+.fontTable-report-excel td {
+    color: #002060; 
+    background-color: #2059A7;
+    color: #fff; border: 1px solid #3268B1;
+}
+

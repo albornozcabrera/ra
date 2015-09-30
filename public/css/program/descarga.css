@@ -1,0 +1,26 @@
+
+
+.wrap_conte_imagen{
+	float:left;
+	height: 700px;
+	overflow: auto;
+	width:100%;
+}
+.content-table
+{
+	margin:auto;
+	margin-top: 100px;
+}
+.table-content
+{
+	/*width: 900px;*/
+}
+
+
+.inline{
+	float:left;
+}
+.table-content td
+{
+	padding: 10px !important;
+}

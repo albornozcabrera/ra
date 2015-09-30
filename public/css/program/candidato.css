@@ -1,0 +1,44 @@
+.content-grid-actions {
+	padding-top: 15px;
+	clear: both;
+}
+
+.content-grid-actions input[type=button] {
+	margin-bottom:2px;
+}
+
+
+.label-1 {
+	width: 150px;
+}
+.label-2 {
+	width: 100px;
+}
+
+.label-3 {
+	width: 230px;
+}
+
+.input-1 {
+	width: 230px;
+}
+
+.textarea-1 {
+	width: 580px;
+	height: 150px;
+}
+
+
+.button-1 {
+	width: 120px;
+}
+
+.select_resol
+{
+	width: 160px !important;
+}
+
+.input_resol
+{
+	width: 160px !important;
+}

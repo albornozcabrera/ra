@@ -1,0 +1,8 @@
+.content-grid-actions {
+	margin: 20px;
+    float:left;
+}
+
+.content-grid-actions input[type=button] {
+	margin-bottom:2px;
+}

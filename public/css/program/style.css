@@ -1,0 +1,304 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-07-2015, 12:05:18
+    Author     : bvaldez
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../fonts/other/icomoon.eot?5lvfya');
+	src:url('../../fonts/other/icomoon.eot?#iefix5lvfya') format('embedded-opentype'),
+		url('../../fonts/other/icomoon.ttf?5lvfya') format('truetype'),
+		url('../../fonts/other/icomoon.woff?5lvfya') format('woff'),
+		url('../../fonts/other/icomoon.svg?5lvfya#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.main{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	padding: 20px;
+	box-sizing:border-box;
+}
+.table{
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width: 100%;
+	background: #FFF;
+}
+.table thead{
+	background-color: #667595;
+	color: #fff;
+}
+.table tbody td{
+	text-align: center;
+}
+.table td, .table th{
+	padding: 1.5px 10px;
+	border: 1px solid #DDD;
+	border-spacing: 0;
+	vertical-align: top;
+	min-width: 30px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.table tr:nth-child(2n){
+	background: #E8E8E8;
+}
+.form{
+	/*margin-bottom: 20px;
+	padding: 20px;*/
+	font-family: 'Open Sans', sans-serif;
+}
+.form .form-group,.form .form-group-inline{
+	margin-bottom: 15px;
+}
+.form .form-group label{
+	display: block;
+	margin: 0 0 10px 0;
+}
+/*.form .form-group-inline{
+	display: inline-block;
+}*/
+.form .form-group-inline label{
+	display: inline-block;
+	margin: 0 20px 0 0;
+	text-align: right;
+}
+
+.form label{
+	font-size: 14px;
+	font-weight: 700;
+	color: #4F5A73;
+}
+.form input[type="text"],.form input[type="email"],.form input[type="search"],.form input[type="password"],.form select,.form textarea, .form select[multiple]{
+	border: 1px solid #C7C7C7;
+	padding: 5px;
+	border-radius: 3px;
+}
+.form select[multiple]{
+	min-height: 300px;
+	width: 300px;
+}
+.block{
+	/*background: #DADCE0;*/
+	background: #FFFFFF;
+	padding: 1px;
+}
+.block>.title{
+	margin: 0;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #667595;
+	padding: 10px;
+	font-size: 16px;
+	text-shadow: 0 1px 1px #1E273C;
+}
+.block .content{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border:1.5px solid #C2C7D2;
+	background: #DADCE0;
+}
+.block .segment{
+	padding: 59px;
+}
+.container{
+
+}
+.pagination{
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+.pagination li{
+	display: inline-block;
+	border: 1px solid #D3D3D3;
+	line-height: 28px;
+	padding: 0 5px;
+	box-sizing: border-box;
+	min-width: 30px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.pagination li a{
+	display: block;
+	text-decoration: none;
+	color: #555;
+}
+.pagination li:hover{
+	background: #E0E0E0;
+}
+.pagination li.active a{
+	color: #FFF;
+	cursor: default;
+}
+.pagination li.active,.pagination li.active:hover{
+	font-weight: 700;
+	background: #797979;
+}
+.select-intercambio{
+	text-align: center;
+}
+.select-intercambio .form-group{
+	display: inline-block;
+	vertical-align: bottom;
+	margin-bottom: 0;
+}
+.select-intercambio .form-group:nth-child(1), .select-intercambio .form-group:nth-child(3){
+	width: 300px;
+}
+.select-intercambio select[multiple]{
+	padding: 10px;
+}
+.select-intercambio .form-group button{
+	margin: 7px 0;
+}
+.select-intercambio .button-group{
+	height: 300px;
+	padding: 55px 10px;
+	box-sizing: border-box;
+}
+/*---------- Style buttons -----------*/
+.btn-default{
+	border: 1px solid #C5C5C5;
+	background: #ECECEC;
+	border-radius: 3px;
+	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 7px 10px;
+	font-weight: 700;
+	color: #444;
+	box-shadow: 0 0 5px #D7D7D7;
+	cursor: pointer;
+	display: block;
+	margin: 30px auto;
+}
+.btn-default:hover{
+	background: #DADADA;
+}
+.btn-action, a.btn-action{
+	border: 0;
+	background: transparent;
+	padding: 2px;
+	cursor: pointer;
+}
+.btn-disable{
+	background: #DADCE0;
+	cursor: no-drop;
+}
+span.icon{
+	display: inline-block;
+	font-weight: 400;
+}
+
+span.icon:before, span.icon:after{
+	font-family: 'icomoon';
+	font-size: 16px;
+	color: #444444;
+}
+span.icon-delete:before{content: "\e9ac";color: #CF2633}
+span.icon-left-arrow:before{content: "\e603";}
+span.icon-left-arrow, span.icon-left-arrowd{
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+span.icon-right-arrow:before{content: "\e603";}
+
+span.icon-left-arrowd:before{content: "\e600";}
+span.icon-right-arrowd:before{content: "\e600";}
+
+.asignar-odpe-usuario .form select{
+	min-width: 250px;
+}
+.asignar-odpe-usuario .form .form-group-inline label{
+	width: 95px;
+}
+.asignar-odpe-usuario>.block .content .segment:first-child{
+	background: #C2C7D2;
+}
+.modulo-sinc .btn-default{
+	margin: 10px auto;
+}
+.modulo-sinc .table{
+	width: 800px;
+	margin: 20px auto;
+}
+.scroll-general-forms-sinc{
+    height:580px;
+    overflow-x: hidden;
+    overflow-y:auto;
+    background-color: #fff;
+    margin-bottom: 12px; 
+}
+.registro-padron .form {
+	margin: 60px auto;
+	width: 530px;
+}
+
+.registro-padron .form .column1, .registro-padron .form .column2 {
+	 display: inline-block;
+	 width: 45%; 	
+}
+.registro-padron .form .column1 {margin-right: 10%;}
+
+
+.form .form-group input{
+	  background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    padding: 7px;
+}
+.form .form-group .estilo{
+	display: block;
+	margin: 0 0 10px 0;
+	  background: none repeat scroll 0 0 #F3F3F3;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 10px 0 0;
+    padding: 3px 7px;
+    width: 170px;
+
+}
+
+.btn-padron{
+	border: 1px solid #C5C5C5;
+	background: #ECECEC;
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+	box-shadow: 0 0 5px #D7D7D7;
+	cursor: pointer;
+	width: 120px;
+}
+.btn-default2{
+		margin: 0 0 10px 0;
+    float: left;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+    width: 185px;
+
+=======
+}
+
+.checkverde{
+background-image: url('../../img/plantilla/check_verde.png');
+}
+.checkrojo{
+	background-image: url('../../img/plantilla/check_rojo.png');
+}
+.checkazul{
+background-image: url('../../img/plantilla/check_azul.png');
+>>>>>>> .r327
+}

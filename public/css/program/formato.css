@@ -1,0 +1,48 @@
+.wrap_conte_tree{
+	float:left;
+	height: 700px;
+	overflow: auto;
+	width:30%;
+}
+
+.wrap_conte_imagen{
+	float:left;
+	height: 700px;
+	overflow: auto;
+	width:68%;
+}
+.content-imagen{
+	margin:auto;
+	margin-top: 20px;
+	width:70%;
+}
+.table-500
+{
+	width: 500px;
+}
+
+.table-650
+{
+	width: 650px;
+}
+
+
+.table-content td
+{
+	padding: 10px !important;
+}
+
+.icon{
+	display: inline-block;
+ 	height: 16px;
+    width: 16px;
+}
+.checkverde{
+background-image: url('../../img/plantilla/check_verde.png');
+}
+.checkrojo{
+	background-image: url('../../img/plantilla/check_rojo.png');
+}
+.checkazul{
+background-image: url('../../img/plantilla/check_azul.png');
+}
