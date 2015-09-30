@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>public/js/library/angularjs/controllers/participacion.js</url>
+            <bookmark id="1">
+                <name/>
+                <line>9</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xampp/htdocs/ra/app/views/layouts/login/master.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/views/login/bienvenida.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/models/User.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/controllers/UsuarioController.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/views/layouts/main/master.blade.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/routes.php</file>
+            <file>file:/D:/xampp/htdocs/ra/public/css/plantilla/style.css</file>
+            <file>file:/D:/xampp/htdocs/ra/app/filters.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/controllers/HomeController.php</file>
+            <file>file:/D:/xampp/htdocs/ra/app/config/constants.php</file>
+        </group>
+    </open-files>
+</project-private>
